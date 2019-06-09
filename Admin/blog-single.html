@@ -199,59 +199,142 @@ Do đó mà cần chia nhỏ dữ liệu ra để fit vừa 100MB. Họ kiểm t
         </div>
       </div>
     </section>
+ <div class="pt-5">
+              <p>Categories:  <a href="#">Database</a>, <a href="#">HTML</a>  Tags: <a href="#">#manila</a>, <a href="#">#asia</a></p>
+            </div>
+            <div class="pt-5">
+              <h3 class="mb-5">6 Comments</h3>
+              <ul class="comment-list">
+                <li class="comment">
+                  <div class="vcard">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>Jean Doe</h3>
+                    <div class="meta">January 9, 2018 at 2:21pm</div>
+                    <p>Bài viết hay lắm bạn :+1:</p>
+                    <p><a href="#" class="reply rounded">Reply</a></p>
+                  </div>
+                </li>
 
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="mb-3 ">Related Post</h2>
+                <li class="comment">
+                  <div class="vcard">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>Jean Doe</h3>
+                    <div class="meta">January 9, 2018 at 2:21pm</div>
+                    <p>Đọc tới đoạn kết thì nước bay bám đầy màn hình. Tưởng đâu bác được nhận, ai ngờ TẠCH. Má ơi! Con lạy! :+1:</p>
+                    <p><a href="#" class="reply rounded">Reply</a></p>
+                  </div>
+
+                  <ul class="children">
+                    <li class="comment">
+                      <div class="vcard">
+                        <img src="images/person_1.jpg" alt="Image placeholder">
+                      </div>
+                      <div class="comment-body">
+                        <h3>Jean Doe</h3>
+                        <div class="meta">January 9, 2018 at 2:21pm</div>
+                        <p>Có trường hợp nào mà Singleton lại tạo ra nhiều instance không? Bác nào trả lời giúp câu này
+
+</p>
+                        <p><a href="#" class="reply rounded">Reply</a></p>
+                      </div>
+
+
+                      <ul class="children">
+                        <li class="comment">
+                          <div class="vcard">
+                            <img src="images/person_1.jpg" alt="Image placeholder">
+                          </div>
+                          <div class="comment-body">
+                            <h3>Jean Doe</h3>
+                            <div class="meta">January 9, 2018 at 2:21pm</div>
+                            <p>Thêm volatile cụ sẽ đặt tiếp ngay câu hỏi vì sao chú add cái đấy vô
+
+</p>
+                            <p><a href="#" class="reply rounded">Reply</a></p>
+                          </div>
+
+                            <ul class="children">
+                              <li class="comment">
+                                <div class="vcard">
+                                  <img src="images/person_1.jpg" alt="Image placeholder">
+                                </div>
+                                <div class="comment-body">
+                                  <h3>Jean Doe</h3>
+                                  <div class="meta">January 9, 2018 at 2:21pm</div>
+                                  <p>Tạo ra nhiều Instance thì là Pool rồi nhỉ? Còn với cách triển khai trên thì trên single process thì không thể có thêm một instace thứ hai được.
+Volatile thì theo như em đang làm thì chỉ có trường hợp viết lib người ta mới hay dùng. Ví dụ như Excutor pool (Defautlt pool size == 1) của Android Asyntask. Đẩy việc lưu biến lên chỗ nào đó em không nhớ nhưng có hai trường hợp sử dụng bao gồm là nếu cần tương tác với External Hardware Register hoặc cho multi Thread mà không cần dùng đến từ khóa synchronized nhờ lợi dụng việc truy cập khu vực nhớ này tuần tự.</p>
+                                  <p><a href="#" class="reply rounded">Reply</a></p>
+                                </div>
+                              </li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="comment">
+                  <div class="vcard">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>Jean Doe</h3>
+                    <div class="meta">January 9, 2018 at 2:21pm</div>
+                    <p>Câu hỏi và số instance là câu hỏi cần suy nghĩ kĩ, đa số trả lời là NO ,và kết quả là đều tạch
+
+</p>
+                    <p><a href="#" class="reply rounded">Reply</a></p>
+                  </div>
+                </li>
+              </ul>
+              <!-- END comment-list -->
+              
+              <div class="comment-form-wrap pt-5">
+                <h3 class="mb-5">Leave a comment</h3>
+                <form action="#" class="p-5 bg-light">
+                  <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="website">Website</label>
+                    <input type="url" class="form-control" id="website">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="submit" value="Post Comment" class="btn btn-primary">
+                  </div>
+
+                </form>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- END main-content -->
+
+   
+              
+
+              
+
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a href="#" class="a-block sm d-flex align-items-center height-md" style="background-image: url('images/img_2.jpg'); ">
-              <div class="text">
-                <div class="post-meta">
-                  <span class="category">Lifestyle</span>
-                  <span class="mr-2">March 15, 2019 </span> &bullet;
-                  <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                </div>
-                <h3>There’s a Cool New Way for Men to Wear Socks and Sandals</h3>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="#" class="a-block sm d-flex align-items-center height-md" style="background-image: url('images/img_3.jpg'); ">
-              <div class="text">
-                <div class="post-meta">
-                  <span class="category">Travel</span>
-                  <span class="mr-2">March 15, 2019 </span> &bullet;
-                  <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                </div>
-                <h3>There’s a Cool New Way for Men to Wear Socks and Sandals</h3>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a href="#" class="a-block sm d-flex align-items-center height-md" style="background-image: url('images/img_4.jpg'); ">
-              <div class="text">
-                <div class="post-meta">
-                  <span class="category">Food</span>
-                  <span class="mr-2">March 15, 2019 </span> &bullet;
-                  <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                </div>
-                <h3>There’s a Cool New Way for Men to Wear Socks and Sandals</h3>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-
-    </section>
-    <!-- END section -->
-  
-    <footer class="site-footer">
+      </section>
+    
+      <footer class="site-footer">
         <div class="container">
           <div class="row mb-5">
             <div class="col-md-4">
@@ -260,21 +343,21 @@ Do đó mà cần chia nhỏ dữ liệu ra để fit vừa 100MB. Họ kiểm t
                 <img src="images/img_1.jpg" alt="Image placeholder" class="img-fluid">
               </p>
 
-              <p>Lorem ipsum dolor sit amet sa ksal sk sa, consectetur adipisicing elit. Ipsa harum inventore reiciendis. <a href="#">Read More</a></p>
+              <p>Ngồi một góc nhỏ cafe, lại nhớ về một chút kỷ niệm gì của quá khứ. Một người bạn của quá khứ hay đôi khi là những tin nhắn sến sẩm với bà xã. Rồi tự hỏi, 2 đứa từng nhắn tin với nhau từ bao giờ ? <a href="#">Read More</a></p>
             </div>
             <div class="col-md-6 ml-auto">
               <div class="row">
                 <div class="col-md-7">
-                  <h3>Newest Post</h3>
+                  <h3>Latest Post</h3>
                   <div class="post-entry-sidebar">
                     <ul>
                       <li>
                         <a href="">
                           <img src="images/img_6.jpg" alt="Image placeholder" class="mr-4">
                           <div class="text">
-                            <h4>How to Find the Video Games of Your Youth</h4>
+                            <h4>Tôi đã phỏng vấn ở Sillicon valley như thế nào</h4>
                             <div class="post-meta">
-                              <span class="mr-2">March 15, 2019 </span> &bullet;
+                              <span class="mr-2">March 15, 2018 </span> &bullet;
                               <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                             </div>
                           </div>
@@ -284,9 +367,9 @@ Do đó mà cần chia nhỏ dữ liệu ra để fit vừa 100MB. Họ kiểm t
                         <a href="">
                           <img src="images/img_3.jpg" alt="Image placeholder" class="mr-4">
                           <div class="text">
-                            <h4>How to Find the Video Games of Your Youth</h4>
+                            <h4>Discord đã lưu trữ hàng tỉ messages mỗi ngày như thế nào</h4>
                             <div class="post-meta">
-                              <span class="mr-2">March 15, 2019 </span> &bullet;
+                              <span class="mr-2">March 15, 2018 </span> &bullet;
                               <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                             </div>
                           </div>
@@ -296,9 +379,9 @@ Do đó mà cần chia nhỏ dữ liệu ra để fit vừa 100MB. Họ kiểm t
                         <a href="">
                           <img src="images/img_4.jpg" alt="Image placeholder" class="mr-4">
                           <div class="text">
-                            <h4>How to Find the Video Games of Your Youth</h4>
+                            <h4>Docker image in production - câu chuyện 1GB hay 100MB</h4>
                             <div class="post-meta">
-                              <span class="mr-2">March 15, 2019 </span> &bullet;
+                              <span class="mr-2">March 15, 2018 </span> &bullet;
                               <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
                             </div>
                           </div>
@@ -314,12 +397,11 @@ Do đó mà cần chia nhỏ dữ liệu ra để fit vừa 100MB. Họ kiểm t
                   <div class="mb-5">
                     <h3>Quick Links</h3>
                     <ul class="list-unstyled">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="newblog.html">New Blog</a></li>
-                      <li><a href="category.html">Categories</a></li>
-                      <li><a href="file.html">File</a></li>
-                      <li><a href="profileadmin">Profile</a></li>
-					  <li><a href="contact.html">Contact</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Travel</a></li>
+                      <li><a href="#">Adventure</a></li>
+                      <li><a href="#">Courses</a></li>
+                      <li><a href="#">Categories</a></li>
                     </ul>
                   </div>
                   
@@ -341,7 +423,7 @@ Do đó mà cần chia nhỏ dữ liệu ra để fit vừa 100MB. Họ kiểm t
           <div class="row">
             <div class="col-md-12 text-center">
               <p class="small">
-            
+           
             </p>
             </div>
           </div>
